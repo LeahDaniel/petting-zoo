@@ -66,3 +66,4 @@ print(miss_fuzz.chip_number)
 print(sucky)
 
 print(critter_cove.last_critter_added)
+miss_fuzz.feedtest()
