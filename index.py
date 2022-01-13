@@ -3,7 +3,7 @@ from swimming import Fish, Shark, Seal, Manatee, Otter
 from walking import Llama, Bear, Goat, Porcupine, Tiger
 from attractions import Wetlands, PettingZoo, SnakePit
 
-miss_fuzz = Llama("Miss Fuzz", "Happy Llama", "morning", "Llama Chow")
+miss_fuzz = Llama("Miss Fuzz", "Happy Llama", "morning", "Llama Chow", 1234567)
 
 fainter = Goat("Fainter", "Fainting Goat", "morning", "Goat Chow")
 
@@ -61,6 +61,8 @@ slither_inn.add_animal(wriggly)
 
 print(slither_inn)
 
-
-print(miss_fuzz)
+miss_fuzz.chip_number = 9876543
+print(miss_fuzz.chip_number)
 print(sucky)
+
+print(critter_cove.last_critter_added)
